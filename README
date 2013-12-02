@@ -1,0 +1,9 @@
+#Setting up cogphp.
+1.	Place the cogphp folder in your site root folder
+2.	Include the cogphp load script as follows:
+	require_once '{site-root}/cogphp/load.php';
+-> After including the load script, the following variables are available:
+	-> $_root The site root.
+	-> $_home The site 'home' directory, supposedly the directory above the site root.
+	-> $_base The base url for use in src and href attributes that require a url value.
+-> You can call Cog::test() to print a sample output.
