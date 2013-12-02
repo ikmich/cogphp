@@ -534,7 +534,7 @@ class Cog
 	/**
 	 * WARNING!!! Not for public/production use.
 	 * Used to include css and js references to "base-ui" files developed
-	 * locally by Ikenna Agbasimalo.
+	 * locally by Ikenna Michael.
 	 */
 	public static function includeBaseUIRefs()
 	{
